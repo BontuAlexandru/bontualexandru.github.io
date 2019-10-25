@@ -10,3 +10,33 @@
     -ms-transform: scale(1.15); /* IE 9 */
     -webkit-transform: scale(1.15); /* Safari and Chrome */
 }
+
+.buttonBox{
+    background-color: transparent;
+    box-shadow: inset 0 0 0 1px #212931;
+    color: #212931 !important;
+    padding: 10px;
+    transition: 1s;
+}
+
+.buttonBox:hover{
+    box-shadow: inset 0 0 0 1px #72bdfe;
+    color: #72bdfe !important;
+    transition: 0s;
+}
+
+.dContact{
+    display: flex;
+    justify-content: start;
+    margin-bottom: 25px;
+    margin-left: 30px;
+    font-weight: bold;
+    color: #323435;
+}
+
+.divStart {
+    display: flex;
+    align-items: start;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
